@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinha Imagem</title>
+
+    <link rel="stylesheet" href="styleAdivinhaImg.css">
+</head>
+<body>
+    <main>
+        <div>
+            <section class="principal">
+                <h1>Escolha uma das imagens do cartão</h1>
+                <p><strong>Iremos adivinhá-la.</strong></p>
+                <img src="imgs/cartao-principal.jpeg" alt="cartão principal">
+            </section>
+            
+            <section class="cartoes">
+                <p><strong id="msg">Sua imagem está neste cartão?</strong></p>
+                <img src="" alt="">
+                <div class="botoes">
+                <button id="n-esta" onclick="nEsta()">Não está</button>
+                <button id="esta" onclick="esta()">Está</button>
+                </div>
+            </section>
+
+            <button onclick="Avancar()" id="botao">Começar!</button>
+            <button onclick="Menu()">Voltar para o Menu</button>
+        </div>
+    </main>
+
+    <script src="scriptAdivinhaImg.js"></script>
+</body>
+</html>

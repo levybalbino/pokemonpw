@@ -1,0 +1,57 @@
+body {
+ background: url("imgs/menuback.jpg") center/cover no-repeat fixed;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.overlay {
+  min-height: 91.73vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)); /* suaviza contraste */
+  text-align: center;
+}
+
+/* Estilo geral dos botões */
+.botoes {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 15px 30px 15px 60px;
+  margin: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #222;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  background-size: 30px 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(255, 230, 150, 0.95);
+}
+
+/* Botão QUIZ com ícone */
+.btn.quiz {
+  background-image: url('imgs/Quiz.jpg'); /* ícone de quiz */
+}
+
+/* Botão ADIVINHADOR com ícone */
+.btn.adivinhador {
+  background-image: url('imgs/Interroga%C3%A7%C3%A3o.png'); /* ícone de adivinhação */
+}
+.tag{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button a{
+    text-decoration: none;
+    color: inherit;
+}
