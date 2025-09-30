@@ -1,0 +1,103 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("imgs/greeen.jpg") center/cover no-repeat fixed;
+    color: #dedcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container principal */
+main {
+    
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: -6px 0 12px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    max-width: 750px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Seção principal */
+.principal h1 {
+    margin: auto;
+    max-width: 600px;
+    border-radius: 6px;
+    background-color: rgb(12, 90, 18);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.principal p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #4c7943;
+}
+
+.principal img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Seção de cartões */
+.cartoes {
+    margin-bottom: 2rem;
+}
+
+.cartoes p {
+    margin: auto;
+    max-width: 300px;
+    border-radius: 6px;
+    background-color: rgb(12, 90, 18);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.cartoes img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+/* Botões */
+button {
+    background-color: #059669;
+    color: black;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    margin: 0.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+button:hover {
+    background-color: #044631;
+}
+
+#botao {
+    background-color: #059669;
+}
+
+#botao:hover {
+    background-color: #056e4d;
+}
