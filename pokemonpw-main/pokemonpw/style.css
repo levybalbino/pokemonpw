@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main > div, section{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+.cartoes{
+    width: fit-content;
+    margin: auto;
+}
+img{
+    display: block;
+    max-height: 150px;
+    max-width: 300px;
+    width: fit-content;
+    margin: 10px auto;
+}
+button{
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.btn{
+   text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 10px; /* espaço entre os botões */
+    padding: 10px 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.btn a{
+      text-decoration: none;
+    color: inherit;
+}

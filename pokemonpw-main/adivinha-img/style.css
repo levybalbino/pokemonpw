@@ -1,0 +1,13 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{text-align: center;}
+main{
+    width: fit-content;
+    margin: auto;
+}
+.cartao{
+    display: none;
+    margin: 10px auto;
+}

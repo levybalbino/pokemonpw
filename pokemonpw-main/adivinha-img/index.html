@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinha imagem</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Escolha uma imagem!</h1>
+    <main>
+        <section id="cp">
+            <!-- Cartão Principal -->
+            <img src="" alt="cp">
+            <!-- Imagens que devem aparecer e sua ordem -->
+            <!-- 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 -->
+        </section>
+        <div class="cartao"></div>
+        <section class="cartao resp" id="c1">
+            <!-- as imagens deste cartão recebem +1 posição -->
+            <p>A sua imagem aparece neste cartão?</p>
+            <img src="" alt="c1"> <br>
+            <input type="radio" id="ac1" name="aparicao" class="aparece" value=1>
+            <label for="ac1">Aparece</label>
+            <input type="radio" id="nc1" name="aparicao" class="nao-aparece" value=0>
+            <label for="nc1">Não aparece</label>
+            <!-- Imagens que devem aparecer e sua ordem -->
+            <!-- 1, 3, 5, 7, 9, 11, 13, 15 -->
+        </section>
+        <section class="cartao resp" id="c2">
+            <!-- as imagens deste cartão recebem +2 posição -->
+            <p>A sua imagem aparece neste cartão?</p>
+            <img src="" alt="c2"> <br>
+            <input type="radio" id="ac2" name="aparicao" class="aparece" value=1>
+            <label for="ac2">Aparece</label>
+            <input type="radio" id="nc2" name="aparicao" class="nao-aparece" value=0>
+            <label for="nc2">Não aparece</label>
+            <!-- Imagens que devem aparecer e sua ordem -->
+            <!-- 2, 3, 6, 7, 10, 11, 14, 15 -->
+        </section>
+        <section class="cartao resp" id="c3">
+            <!-- as imagens deste cartão recebem +4 posição -->
+            <p>A sua imagem aparece neste cartão?</p>
+            <img src="" alt="c3"> <br>
+            <input type="radio" id="ac3" name="aparicao" class="aparece" value=1>
+            <label for="ac3">Aparece</label>
+            <input type="radio" id="nc3" name="aparicao" class="nao-aparece" value=0>
+            <label for="nc3">Não aparece</label>
+            <!-- Imagens que devem aparecer e sua ordem -->
+            <!-- 4, 5, 6, 7, 12, 13, 14, 15 -->
+        </section>
+        <section class="cartao resp" id="c4">
+            <!-- as imagens deste cartão recebem +8 posição -->
+            <p>A sua imagem aparece neste cartão?</p>
+            <img src="" alt="c4"> <br>
+            <input type="radio" id="ac4" name="aparicao" class="aparece" value=1>
+            <label for="ac4">Aparece</label>
+            <input type="radio" id="nc4" name="aparicao" class="nao-aparece" value=0>
+            <label for="nc4">Não aparece</label>
+            <!-- Imagens que devem aparecer e sua ordem -->
+            <!-- 8, 9, 10, 11, 12, 13, 14, 15 -->
+        </section>
+        <section class="cartao" id="cr">
+            <!-- Aqui que aparece a resposta -->
+             <img src="" alt="cr">
+        </section>
+        <button onclick="avancar()" id="avancar">Avançar</button>
+    </main>
+    <button><a href="menu.html">Voltar Para o Menu!</a></button>
+    <script src="script.js"></script>
+</body>
+</html>
